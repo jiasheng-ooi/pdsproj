@@ -1,7 +1,8 @@
 # Product Design Studio
 
 ## Automated Cooling System through Movement Monitoring
-
+| Getting Started | Features | Download |
+| =============== | ======== | ======== |
 <p align="right">
 Ooi Jia Sheng 1003424
 </p>
