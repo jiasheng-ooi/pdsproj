@@ -1,4 +1,10 @@
-# Project Title
+# Product Design Studio
+
+## Automated Cooling System through Movement Monitoring
+
+<p align="right">
+Ooi Jia Sheng 1003424
+</p>
 
 One Paragraph of project description goes here
 
