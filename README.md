@@ -1,13 +1,11 @@
 # Product Design Studio
 
-## Automated Cooling System through Movement Monitoring
-| Getting Started | Features | Download |
-| =============== | ======== | ======== |
 <p align="right">
 Ooi Jia Sheng 1003424
 </p>
 
-One Paragraph of project description goes here
+## Automated Cooling System through Movement Monitoring
+The system comprises of an app-based user interfacce, a database hosted on a cloud and a embedded system using an Arduino Development Board embedded with a WiFi module.
 
 ## Getting Started
 
