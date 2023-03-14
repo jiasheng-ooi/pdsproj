@@ -20,16 +20,24 @@ The system comprises of an app-based user interfacce, a database hosted on a clo
 
 ## Specifications
 
-### Arduino MKR WiFI 1010
+## Arduino MKR WiFI 1010
+
+<img src="https://static.cytron.io/image/catalog/products/ARDUINO-MKR-1010/ARDUINO-MKR-1010-b.jpg" width="200" height="280">
+
 * Board Input Voltage : 5V
 * Communication: Wifi & Bluetooth
 * Dimensions:61.5mm x 25mm
 
 ## SparkFun H3LIS331DL Triple Axis Accelerometer Breakout
+<img src="https://cdn.sparkfun.com//assets/parts/1/2/5/3/2/14480-01.jpg" width="200" height="280">
+
 * Board Input Voltage: 2.16V to 3.6V
 * Digital Output: I2C & SPI
 
 
+## Circuit Diagram
+
+## System Architecture
 What things you need to install the software and how to install them
 
 ```
