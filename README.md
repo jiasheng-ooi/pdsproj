@@ -1,17 +1,34 @@
-# Product Design Studio
+# Automated Cooling System through Movement Monitoring
 
-<p align="right">
-Ooi Jia Sheng 1003424
-</p>
 
-## Automated Cooling System through Movement Monitoring
-The system comprises of an app-based user interfacce, a database hosted on a cloud and a embedded system using an Arduino Development Board embedded with a WiFi module.
+## Introduction
+Singapore is a hot and humid nation where one must be wary of their body temperature if significant portion of the day is spent moving around ourdoors. This leads to a probable chance of inducing heatsroke or other forms of heat injury in the process. The product seeks to cool the bodies of the user by increasing rate of sweat evaporation when non-stantionary.
+The system comprises of an app-based user interfacce, a database hosted on a cloud and a embedded system using an Arduino Development Board embedded with a WiFi module. The individual modules communicates using WiFi communication protocols. 
 
-## Getting Started
+## Bill Of Materials
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+| Index         | Component      | Description   |
+| --   | ------------- | ------------- |
+| 1  | Arduino MKR WiFi 1010  | Development Board to control input and output modules  | 
+| 2  | Phone with Android OS  | User Interface(MIT App Inventor 2) to allow user to adjust settings   |
+| 3  | SparkFun H3LIS331DL Triple Axis Accelerometer Breakout  | Provide X,Y,Z acceleration readings to detect user's motion   |
+| 4  | LED (Green) | Status light to indicate key events | 
+| 5  | 3V DC Motor | Power the fan to cool the body| 
+| 6  | Fan Blade | Generate directional wind current to increase rate of sweat ecaporation| 
 
-### Prerequisites
+*insert diagram*
+
+## Specifications
+
+### Arduino MKR WiFI 1010
+* Board Input Voltage : 5V
+* Communication: Wifi & Bluetooth
+* Dimensions:61.5mm x 25mm
+
+## SparkFun H3LIS331DL Triple Axis Accelerometer Breakout
+* Board Input Voltage: 2.16V to 3.6V
+* Digital Output: I2C & SPI
+
 
 What things you need to install the software and how to install them
 
