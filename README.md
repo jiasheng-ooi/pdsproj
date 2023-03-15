@@ -20,7 +20,7 @@ The system comprises of an app-based user interfacce, a database hosted on a clo
 
 ## Specifications
 
-## Arduino MKR WiFI 1010
+### Arduino MKR WiFI 1010
 
 <img src="https://static.cytron.io/image/catalog/products/ARDUINO-MKR-1010/ARDUINO-MKR-1010-b.jpg" width="200" height="280">
 
@@ -28,28 +28,28 @@ The system comprises of an app-based user interfacce, a database hosted on a clo
 * Communication: Wifi & Bluetooth
 * Dimensions:61.5mm x 25mm
 
-## SparkFun H3LIS331DL Triple Axis Accelerometer Breakout
+### SparkFun H3LIS331DL Triple Axis Accelerometer Breakout
 <img src="https://cdn.sparkfun.com//assets/parts/1/2/5/3/2/14480-01.jpg" width="200" height="280" align="center">
 
 * Board Input Voltage: 2.16V to 3.6V
 * Digital Output: I2C & SPI
 
-## User Interface
+### User Interface
 <img src="https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/applayout.jpg?raw=true" width="350" height="680">
 
 * Android OS
 * Built using MIT App Inventor 2
 
 
-###  System Architecture
-## Circuit Diagram
+##  System Architecture
+### Circuit Diagram
 ![img](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/circuit%20diagram.jpeg?raw=true)
 
-## Database
+### Database
 ![db](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/database.JPG?raw=true)
 The database provides a middleman platfrom for the Android application and the Arduino system to facilitate communication. THe database uses the Firebase api, specifically its realtime database.
 
-## Communication
+### Communication
 ![comms](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/communication.JPG?raw=true)
 
 *Enable: Controls whether the fan can be activated or not, if the user is in motion.
@@ -57,9 +57,14 @@ The database provides a middleman platfrom for the Android application and the A
 *Pitch: The rotation around X axis measured by the accelerometer
 *Roll: The rotation around Y axis measured by the accelerometer
 
-```
-Give examples
-```
+## Wrokflow of Product
+
+### Setup
+
+Ensure that a realtime database has been set up and is ready to be used.
+
+## Code
+
 
 ### Installing
 
