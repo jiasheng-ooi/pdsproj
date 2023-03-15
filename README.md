@@ -26,7 +26,7 @@ The system comprises of an app-based user interfacce, a database hosted on a clo
 
 * Board Input Voltage : 5V
 * Communication: Wifi & Bluetooth
-* Dimensions:61.5mm x 25mm
+* Dimensions: 61.5mm x 25mm
 
 ### SparkFun H3LIS331DL Triple Axis Accelerometer Breakout
 <img src="https://cdn.sparkfun.com//assets/parts/1/2/5/3/2/14480-01.jpg" width="200" height="280" align="center">
@@ -57,11 +57,28 @@ The database provides a middleman platfrom for the Android application and the A
 *Pitch: The rotation around X axis measured by the accelerometer
 *Roll: The rotation around Y axis measured by the accelerometer
 
-## Wrokflow of Product
+## Workflow of Product
 
 ### Setup
 
-Ensure that a realtime database has been set up and is ready to be used.
+Ensure that a realtime database has been set up and is ready to be used. Adhere to the circuit diagram with the associated code while using the AI2 file to interface with it.
+
+### Bootup
+Video:
+![start](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/setup.MOV)
+
+At iniital boot up of the Arduino, it will establish communication with the WiFi of choice (in this context it will be SUTD_IOT). Upon successful connection, the green LED will light up. Sequentially, the Arduino will set up communication with the Firebase API. 
+
+### Main Functionality
+Video:
+![main](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/working.MOV)
+The default case without the Android Application will be that the fan will not turn on regardless of motion. After the Android Applicatio is live and the user has clicked on the 'enable' button, the fan will be able to fucntion upon movement is detected. The movement that the product tracks is gneralised to a substantial change in the pitch value, 
+
+
+### Mobile Application
+![mitai2](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/appinventor.MOV)
+
+
 
 ## Code
 
@@ -134,6 +151,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Arduino MKR  WiFI 1010
+* Firebase
+* MIT App Inventor 2
