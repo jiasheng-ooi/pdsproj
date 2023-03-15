@@ -64,8 +64,7 @@ The database provides a middleman platfrom for the Android application and the A
 Ensure that a realtime database has been set up and is ready to be used. Adhere to the circuit diagram with the associated code while using the AI2 file to interface with it.
 
 ### Bootup
-Video:
-![start](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/setup.MOV)
+[Video](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/setup.MOV)
 
 At iniital boot up of the Arduino, it will establish communication with the WiFi of choice (in this context it will be SUTD_IOT). Upon successful connection, the green LED will light up. Sequentially, the Arduino will set up communication with the Firebase API. 
 
