@@ -2,7 +2,7 @@
 
 
 ## Introduction
-Singapore is a hot and humid nation where one must be wary of their body temperature if significant portion of the day is spent moving around ourdoors. This leads to a probable chance of inducing heatsroke or other forms of heat injury in the process. The product seeks to cool the bodies of the user by increasing rate of sweat evaporation when non-stantionary.
+Singapore is a hot and humid nation where one must be wary of their body temperature if significant portion of the day is spent moving around ourdoors. This leads to a probable chance of inducing heatsroke or other forms of heat injury in the process. The product seeks to cool the bodies of the user by increasing rate of sweat evaporation when non-stantionary. An Arduino System is embedded to the user and functionalities cna be controlled by a Android application.
 The system comprises of an app-based user interfacce, a database hosted on a cloud and a embedded system using an Arduino Development Board embedded with a WiFi module. The individual modules communicates using WiFi communication protocols. 
 
 ## Bill Of Materials
@@ -35,7 +35,8 @@ The system comprises of an app-based user interfacce, a database hosted on a clo
 * Digital Output: I2C & SPI
 
 ## User Interface
-![app](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/applayout.jpg?raw=true)
+<img src="https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/applayout.jpg?raw=true" width="350" height="680">
+
 * Android OS
 * Built using MIT App Inventor 2
 
@@ -45,11 +46,16 @@ The system comprises of an app-based user interfacce, a database hosted on a clo
 ![img](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/circuit%20diagram.jpeg?raw=true)
 
 ## Database
-The database provides a middleman platfrom for the Android application and the Arduino system to facilitate communication. 
+![db](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/database.JPG?raw=true)
+The database provides a middleman platfrom for the Android application and the Arduino system to facilitate communication. THe database uses the Firebase api, specifically its realtime database.
 
+## Communication
+![comms](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/communication.JPG?raw=true)
 
-## User Interface
-
+*Enable: Controls whether the fan can be activated or not, if the user is in motion.
+*Power: Controls the fan speed when the fan is on.
+*Pitch: The rotation around X axis measured by the accelerometer
+*Roll: The rotation around Y axis measured by the accelerometer
 
 ```
 Give examples
