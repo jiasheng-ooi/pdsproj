@@ -29,16 +29,27 @@ The system comprises of an app-based user interfacce, a database hosted on a clo
 * Dimensions:61.5mm x 25mm
 
 ## SparkFun H3LIS331DL Triple Axis Accelerometer Breakout
-<img src="https://cdn.sparkfun.com//assets/parts/1/2/5/3/2/14480-01.jpg" width="200" height="280">
+<img src="https://cdn.sparkfun.com//assets/parts/1/2/5/3/2/14480-01.jpg" width="200" height="280" align="center">
 
 * Board Input Voltage: 2.16V to 3.6V
 * Digital Output: I2C & SPI
 
+## User Interface
+![app](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/applayout.jpg?raw=true)
+* Android OS
+* Built using MIT App Inventor 2
 
+
+###  System Architecture
 ## Circuit Diagram
+![img](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/circuit%20diagram.jpeg?raw=true)
 
-## System Architecture
-What things you need to install the software and how to install them
+## Database
+The database provides a middleman platfrom for the Android application and the Arduino system to facilitate communication. 
+
+
+## User Interface
+
 
 ```
 Give examples
