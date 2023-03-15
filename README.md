@@ -71,7 +71,12 @@ At iniital boot up of the Arduino, it will establish communication with the WiFi
 
 ### Main Functionality
 [Video](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/working.MOV)
+
 The default case without the Android Application will be that the fan will not turn on regardless of motion. After the Android Applicatio is live and the user has clicked on the 'enable' button, the fan will be able to fucntion upon movement is detected. The movement that the product tracks is gneralised to a substantial change in the pitch value, 
+
+To actuate the DC Motor, a L298N Motor Driver is used to control the speed of the fan using Pulse Width Modulation (PWM) Technoques.
+
+Throughout the run cycle of the product, multi-threaded control is implemented on the Arduino, such that controlling the motor/monitoring the 3 Axis Acceleormeter values and montioring Firebase for change in *Enable* and *Power*, that enables the fan use and fan speed respectively.
 
 
 ### Mobile Application
@@ -83,6 +88,7 @@ The default case without the Android Application will be that the fan will not t
 
 ## Fan Speed Change
 [Video](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/lowpower.MOV)
+
 
 
 
