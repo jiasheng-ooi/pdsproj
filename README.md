@@ -38,6 +38,7 @@ The system comprises of an app-based user interfacce, a database hosted on a clo
 
 * Android based Application
 * Built using MIT App Inventor 2
+* Number below slider refers to the phone internal accelerometer reading (not used)
 
 
 ##  System Architecture
@@ -96,6 +97,9 @@ Throughout the run cycle of the product, multi-threaded control is implemented o
 
 [MIT AppInventor2 File](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/src/pdsproj.aia)
 
+## Conclusion
+
+The product has managed to deliver the intended outcome, where a certain level of motion can be dected using the acceleormeter rreadings to contorl the fan, thought the condition has been very generalized. Possible expansion of the project is to soley rely on the phone sensor readings, thus requiring a much more from fitted system where there is only the fan and a smaller controller (ESP 32). 
 
 
 ## Acknowledgments
