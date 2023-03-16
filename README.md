@@ -15,8 +15,7 @@ The system comprises of an app-based user interfacce, a database hosted on a clo
 | 4  | LED (Green) | Status light to indicate key events | 
 | 5  | 3V DC Motor | Power the fan to cool the body| 
 | 6  | Fan Blade | Generate directional wind current to increase rate of sweat ecaporation| 
-
-*insert diagram*
+| 7  | L295N Motor Driver | Facilitate speed control of the DC Motor| 
 
 ## Specifications
 
@@ -37,7 +36,7 @@ The system comprises of an app-based user interfacce, a database hosted on a clo
 ### User Interface
 <img src="https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/applayout.jpg?raw=true" width="350" height="680">
 
-* Android OS
+* Android based Application
 * Built using MIT App Inventor 2
 
 
@@ -47,7 +46,7 @@ The system comprises of an app-based user interfacce, a database hosted on a clo
 
 ### Database
 ![db](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/database.JPG?raw=true)
-The database provides a middleman platfrom for the Android application and the Arduino system to facilitate communication. THe database uses the Firebase api, specifically its realtime database.
+The database provides a middleman platfrom for the Android application and the Arduino system to facilitate communication. THe database uses the Firebase api, specifically its realtime database. The above variables are used in the project, which will be elaborated below.
 
 ### Communication
 ![comms](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/communication.JPG?raw=true)
@@ -61,7 +60,7 @@ The database provides a middleman platfrom for the Android application and the A
 
 ### Setup
 
-Ensure that a realtime database has been set up and is ready to be used. Adhere to the circuit diagram with the associated code while using the AI2 file to interface with it.
+Ensure that a realtime database has been set up and is ready to be used. Adhere to the circuit diagram and Bill Of Materials with the associated code while using the AI2 file to interface with it.
 
 ### Bootup
 [Video](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/setup.MOV)
