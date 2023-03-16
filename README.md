@@ -81,18 +81,18 @@ Throughout the run cycle of the product, multi-threaded control is implemented o
 ### Mobile Application
 [Video](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/appinventor.MOV)
 
-## Enable/DIsable control
+### Enable/DIsable control
 [Video](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/disabled.MOV)
 
 
-## Fan Speed Change
+### Fan Speed Change
 [Video](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/media/lowpower.MOV)
 
 
 
 
 
-## Code
+### Code
 [Arduino File](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/src/run.h)
 
 [MIT AppInventor2 File](https://github.com/jiasheng-ooi/pdsproj.github.io/blob/main/src/pdsproj.aia)
