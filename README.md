@@ -99,7 +99,8 @@ Throughout the run cycle of the product, multi-threaded control is implemented o
 
 ## Conclusion
 
-The product has managed to deliver the intended outcome, where a certain level of motion can be dected using the acceleormeter rreadings to contorl the fan, thought the condition has been very generalized. Possible expansion of the project is to soley rely on the phone sensor readings, thus requiring a much more from fitted system where there is only the fan and a smaller controller (ESP 32). 
+The product has managed to deliver the intended outcome, where a certain level of motion can be detected using the acceleormeter readings to control the fan, though the condition has been very generalized. Possible expansion of the project is to solely rely on the phone sensor readings, thus requiring a much more form-fitted system where there is only a fan and a smaller controller (ESP 32).
+
 
 
 ## Acknowledgments
