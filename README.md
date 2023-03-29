@@ -2,7 +2,7 @@
 
 
 ## Introduction
-Singapore is a hot and humid nation where one must be wary of their body temperature if significant portion of the day is spent moving around ourdoors. This leads to a probable chance of inducing heatsroke or other forms of heat injury in the process. The product seeks to cool the bodies of the user by increasing rate of sweat evaporation when non-stantionary. An Arduino System is embedded to the user and functionalities cna be controlled by a Android application.
+Singapore is a hot and humid nation where one must be wary of their body temperature if significant portion of the day is spent moving around ourdoors. This leads to a probable chance of inducing heatsroke or other forms of heat injury in the process. The product seeks to cool the bodies of the user by increasing rate of sweat evaporation when non-stantionary. An Arduino System is embedded to the user and functionalities can be controlled by a Android application.
 The system comprises of an app-based user interfacce, a database hosted on a cloud and a embedded system using an Arduino Development Board embedded with a WiFi module. The individual modules communicates using WiFi communication protocols. 
 
 ## Bill Of Materials
